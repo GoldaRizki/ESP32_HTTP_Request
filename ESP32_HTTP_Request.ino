@@ -3,8 +3,8 @@
 #include <ArduinoJson.h>
 
 
-const char* ssid = "NAMA_WIFI_MU";
-const char* password = "PASSWORD_WIFI_MU";
+const char* ssid = "pppp";
+const char* password = "qqqq";
 
 String serverName;
 
@@ -24,7 +24,7 @@ void setup() {
   // Jangan lupa IP address nya diubah dulu pake IP komputermu yg jadi Server
 
   //serverName = "http://IP_ADDRESS_KOMPUTER_MU/api/si_paling_skripsi";  // Ini untuk ngirim data beneran ke server
-  serverName = "http://IP_ADDRESS_KOMPUTER_MU/api/data_random";  // Ini kalo mau datanya dikasih data dummy/random 
+  serverName = "http://192.168.0.1/api/data_random";  // Ini kalo mau datanya dikasih data dummy/random 
 
   Serial.begin(115200);
 
